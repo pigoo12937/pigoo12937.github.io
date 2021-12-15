@@ -1,0 +1,11 @@
+.container {
+    background-color: yellow;
+    width: 10vw;
+    height: 10vh;
+    /* 試著用px vh 和 % 看看 */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
